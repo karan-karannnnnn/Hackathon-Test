@@ -1,0 +1,224 @@
+
+.header-component{
+    border: 20px solid #ff2e51;
+    height: 100%;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    padding: 5px;
+    border: 2px solid rgb(219, 219, 219); 
+    border-radius: 20px;
+    width: 450px;
+    height: 30px;
+    margin: -60px 220px 0px 0;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.icon1,.icon2{
+    width: 30px;
+    margin: -60px 150px 0px -120px ;
+    
+}
+
+.my-img{
+    width: 55px;
+    height: 55px;
+    margin: -60px 190px 0px -120px ;
+}
+
+.profile-name{
+
+    margin-left: -180px;
+    margin-top: -40px;
+    margin-right: 80px;
+    font-size: 25px;
+    
+}
+
+.sidebar-navigation{
+    height: 1500px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(48, 47, 47);
+
+}
+
+.heading1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #fd183e;
+    
+}
+
+.heading2,.heading3,.heading4{
+
+    text-align: center;
+    padding: 20px;
+    color: white;
+   
+}
+
+.heading2:hover,.heading3:hover,.heading4:hover{
+    transition-property: background-color;
+    background-color:#fd183e;
+    transition-duration: 1s;
+    padding: 20px;
+    
+}
+
+.hotel-overview-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img1,.img2,.img3{
+    width: 326px;
+    height: 250px;
+    margin-top: -1560px;
+}
+
+
+  .overview-heading1{
+    display: flex;
+    justify-content: center;
+    color: rgb(85, 81, 81);
+    margin-top: -1300px;
+    margin-left: -400px;
+  }
+
+  .overview-heading2{
+
+    display: flex;
+    justify-content: flex-end;
+    color: #ff2e51;
+    text-decoration: underline;
+    margin-right: 100px;
+    margin-top: -30px;
+
+  }
+
+  .rating-view{
+    display: flex;
+    justify-content: flex-end;
+    width: 1330px;
+    text-align: center;
+
+  }
+
+  .rating-view-background{
+    background-color: #fd183e;
+    color: white;
+    padding: 10px;
+    margin-top: -60px;
+    margin-right: -20px;
+  }
+
+  .description-section1{
+
+    margin-left: 400px; 
+    width: 500px;
+    height: 500px;
+    color: grey;
+    padding: 30px;
+    
+  }
+
+  .description-section2{
+
+      display: flex; 
+      padding: 25px;
+      justify-content: space-between;
+     
+  }
+
+  .description-section3{
+
+    display: flex;
+     padding: 20px; 
+
+     /* I Tried CSS Mask but couldn't understand and it's not working */
+
+
+    /* -webkit-mask-image: url(./images/user-3.jpg),url(./images/user-4.jpg);
+    mask-image: url(./images/user-3.jpg),url(./images/user-4.jpg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; */
+
+  }
+
+  .user-review1{
+    width: 150px;
+    height: 300px;
+    /* background-color: lightcoral; */
+    color: grey;
+    margin-left: 1000px;
+    margin-top: -550px;
+    padding: 30px;
+  }
+
+  .user-review-rating,.user-review-rating2{
+    width: 50px;
+    height: 40px;
+    color:  #fd183e;
+    text-align: center;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: -150px;
+  }
+
+  .user-review2{
+
+    width: 150px;
+    height: 300px;
+    color: grey;
+    margin-left: 1000px;
+    margin-top: 20px; 
+    padding: 30px; 
+
+  }
+
+  .show-all{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+
+  }
+
+  .booking-button{
+
+    width: 200px;
+    height: 100%;
+    padding: 30px;
+    color: grey;
+    margin-left: 700px;
+    margin-top: -50px;
+  }
+ 
+  .button{
+
+    background-color: #fd183e;
+    color: white;
+    height: 100%;
+    width: 200px;
+    border: 1px solid  #fd183e;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    margin-left: 750px;
+
+  }
+  
+
+
+
